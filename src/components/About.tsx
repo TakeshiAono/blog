@@ -91,8 +91,8 @@ export default function About() {
               </h4>
               <div className="space-y-4">
                 {[
-                  { year: "2023 -", role: "フリーランスエンジニア", desc: "Web アプリ開発・副業案件" },
-                  { year: "2022", role: "個人開発スタート", desc: "Next.js / Rails でのプロダクト開発" },
+                  { year: "2023/2 -", role: "SIer / アプリ開発エンジニア", desc: "運送系業務アプリの開発・保守" },
+                  { year: "2022/5 - 2022/10", role: "DIVE INTO CODE", desc: "プログラミングスクールにてWeb開発を学習" },
                 ].map((item) => (
                   <div key={item.year} className="flex gap-4">
                     <span className="text-violet-400 text-sm font-mono w-16 shrink-0 pt-0.5">{item.year}</span>
