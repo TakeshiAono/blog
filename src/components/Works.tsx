@@ -18,12 +18,13 @@ const works = [
     status: "公開中",
   },
   {
-    title: "Coming Soon",
-    description: "新しいプロジェクトを鋭意開発中。お楽しみに。",
-    tags: [],
-    github: null,
-    demo: null,
-    status: "準備中",
+    title: "ケイドロアプリ",
+    description:
+      "iOSアプリ。現実の街を舞台にしたケイドロ（警泥）ゲーム。GPSを使ってプレイヤーの位置をリアルタイムで追跡し、警察と泥棒に分かれて遊べる。",
+    tags: ["Swift", "iOS", "GPS"],
+    github: "https://github.com/TakeshiAono/DeviceFieldPlay",
+    demo: "https://apps.apple.com/jp/app/%E3%82%B1%E3%82%A4%E3%83%89%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id6747933405",
+    status: "公開中",
   },
 ];
 
@@ -99,7 +100,7 @@ export default function Works() {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
-                    Demo
+                    App Store
                   </a>
                 )}
               </div>
