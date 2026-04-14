@@ -4,7 +4,7 @@ const works = [
     description:
       "グループでのポイント管理・共有を行うWebアプリ。メンバー間でのポイントの付与・集計をリアルタイムで管理できる。",
     tags: ["Next.js", "TypeScript", "Ruby on Rails", "PostgreSQL"],
-    github: "https://github.com/TakeshiAono",
+    github: "https://github.com/TakeshiAono/group_point",
     demo: null,
     status: "開発中",
   },
