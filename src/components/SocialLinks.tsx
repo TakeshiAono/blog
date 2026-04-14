@@ -26,23 +26,10 @@ const links = [
     hoverBorder: "hover:border-slate-500",
   },
   {
-    name: "Zenn",
-    handle: "技術記事を投稿",
-    description: "技術ブログ・スクラップ",
-    href: "https://zenn.dev",
-    icon: (
-      <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 88 88">
-        <path d="M0 88h19.4L63 0H43.6L0 88zm68.9 0h19.4L63.1 44.4 53.4 62l15.5 26z" />
-      </svg>
-    ),
-    color: "from-sky-900 to-slate-800",
-    hoverBorder: "hover:border-sky-500/40",
-  },
-  {
     name: "Qiita",
-    handle: "技術記事を投稿",
+    handle: "@aono1234",
     description: "プログラミングのナレッジ共有",
-    href: "https://qiita.com",
+    href: "https://qiita.com/aono1234",
     icon: (
       <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 0C5.374 0 0 5.373 0 12c0 6.628 5.374 12 12 12 6.628 0 12-5.372 12-12C24 5.373 18.628 0 12 0zm-.46 15.864H8.844l3.23-7.488H8.844V6.624h5.508l-3.217 7.488h3.217v1.752h-.812z" />
